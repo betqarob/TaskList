@@ -1,8 +1,9 @@
-
 window.addEventListener('load', () =>{
+    //creates the instant for the localStorage so I can access already exisiting items.
     todo_list = JSON.parse(localStorage.getItem('todos')) || [];
     const form = document.querySelector('#new-task-form');
 
+    //ToDo: create event listener for submitting the form.
     form.addEventListener('submit', (e) =>{
         e.preventDefault();
 
