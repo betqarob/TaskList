@@ -4,8 +4,8 @@
     --darkest: #111827;
     --gray: #C4C5CE;
     --light: #EEE;
-    --pink: #EC4899;
-    --purple: #8B5Cf6;
+    --blue: #B6F9ED;
+    --purple: #A7AFE5;
 }
 
 * {
@@ -62,10 +62,10 @@ input, button {
 }
 
 #new-task-submit {
-    color: var(--pink);
+    color: var(--blue);
     font-size: 1.25rem;
     font-weight: 700;
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    background-image: linear-gradient(to right, var(--blue), var(--purple));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -121,7 +121,7 @@ main{
 }
 
 #tasks .content .text:not(:read-only){
-    color: var(--pink);
+    color: var(--blue);
 
 }
 
@@ -148,7 +148,7 @@ main{
 }
 
 #tasks .actions .edit{
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    background-image: linear-gradient(to right, var(--blue), var(--purple));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
